@@ -455,7 +455,7 @@ shortcuts.initializeTouchStates = (layer) ->
     # Create fake hit target (so we don't re-fire events)
     if _hover or _down
       hitTarget = new Layer
-        background: 'transparent'
+        backgroundColor: 'transparent'
         frame: _default.frame
 
       hitTarget.superLayer = layer
